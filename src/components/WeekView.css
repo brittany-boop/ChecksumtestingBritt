@@ -1,0 +1,40 @@
+.week-view {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.week-container {
+  display: flex;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.time-gutter {
+  width: 60px;
+  flex-shrink: 0;
+  border-right: 1px solid #e0e0e0;
+}
+
+.gutter-header {
+  height: 62px;
+  border-bottom: 1px solid #e0e0e0;
+  background: #f8f9fa;
+}
+
+.gutter-label {
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-right: 8px;
+  font-size: 0.65rem;
+  color: #999;
+  transform: translateY(-6px);
+}
+
+.week-columns {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+}

@@ -1,0 +1,59 @@
+.month-day-cell {
+  min-height: 100px;
+  padding: 4px;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.month-day-cell:hover {
+  background: #f8f9fa;
+}
+
+.month-day-cell.other-month {
+  background: #fafafa;
+  color: #bbb;
+}
+
+.day-number-row {
+  margin-bottom: 2px;
+}
+
+.day-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  font-size: 0.85rem;
+  border-radius: 50%;
+}
+
+.day-number.today {
+  background: #1a73e8;
+  color: white;
+  font-weight: 600;
+}
+
+.holiday-label {
+  font-size: 0.65rem;
+  color: #d32f2f;
+  line-height: 1.2;
+  margin-bottom: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.day-events {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.more-events {
+  font-size: 0.65rem;
+  color: #666;
+  padding: 1px 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.week-day-column {
+  flex: 1;
+  min-width: 0;
+  border-right: 1px solid #e0e0e0;
+}
+
+.week-day-column:last-child {
+  border-right: none;
+}
+
+.week-day-header {
+  text-align: center;
+  padding: 0.5rem 0.25rem;
+  border-bottom: 1px solid #e0e0e0;
+  background: #f8f9fa;
+}
+
+.week-day-name {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.week-day-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  font-size: 0.9rem;
+  border-radius: 50%;
+}
+
+.week-day-number.today {
+  background: #1a73e8;
+  color: white;
+  font-weight: 600;
+}
+
+.week-holiday {
+  display: block;
+  font-size: 0.6rem;
+  color: #d32f2f;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.today-column {
+  background: #e8f0fe22;
+}
+
+.time-slots-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.time-slots {
+  position: relative;
+}
+
+.time-slot {
+  height: 50px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.time-slot:hover {
+  background: #f0f7ff;
+}
+
+.week-event-block {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  border-radius: 4px;
+  padding: 2px 4px;
+  color: white;
+  font-size: 0.7rem;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.week-event-block:hover {
+  opacity: 0.85;
+}
+
+.week-event-title {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

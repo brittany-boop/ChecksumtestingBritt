@@ -1,0 +1,19 @@
+.event-chip {
+  display: block;
+  width: 100%;
+  padding: 1px 4px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  cursor: pointer;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.event-chip:hover {
+  opacity: 0.85;
+}
