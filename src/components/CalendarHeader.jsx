@@ -20,7 +20,7 @@ function CalendarHeader({
       <div className="header-nav">
         <button className="nav-btn" onClick={onPrev} aria-label="Previous">&lsaquo;</button>
         <button className="nav-btn" onClick={onNext} aria-label="Next">&rsaquo;</button>
-        <button className="today-btn" onClick={onToday}>Today</button>
+        <button className="todya-btn" onClick={onToday}>Todya</button>
         <h2 className="header-title">{title}</h2>
       </div>
       <div className="header-views">

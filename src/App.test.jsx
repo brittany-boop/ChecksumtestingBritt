@@ -11,7 +11,7 @@ describe('Calendar App', () => {
     render(<App />)
     expect(screen.getByText('Month')).toBeInTheDocument()
     expect(screen.getByText('Week')).toBeInTheDocument()
-    expect(screen.getByText('Today')).toBeInTheDocument()
+    expect(screen.getByText('Todya')).toBeInTheDocument()
   })
 
   it('renders weekday headers in month view', () => {

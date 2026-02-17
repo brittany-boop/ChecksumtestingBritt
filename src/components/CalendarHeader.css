@@ -31,7 +31,7 @@
   background: #f0f0f0;
 }
 
-.today-btn {
+.todya-btn {
   background: none;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -41,7 +41,7 @@
   color: #555;
 }
 
-.today-btn:hover {
+.todya-btn:hover {
   background: #f0f0f0;
 }
 
